@@ -6,6 +6,35 @@
 import javax.swing.JOptionPane;
 
 public class GuessingPi {
+	public static void main(String[] args) {
+		
+		String frog = ("3.14159265358979323846264338327950288419716939937510582097");
+		System.out.println(frog.charAt(0));
+		System.out.println(frog.charAt(1));
+		System.out.println(frog.charAt(2));
+		for (int i = 0; i < frog.length(); i++) {String frog1 = JOptionPane.showInputDialog("What are the next digits of Pi");
+		if(frog1.equals(frog.charAt(3))) {
+	    JOptionPane.showMessageDialog(null, "Your correct");
+	  }
+		else{
+		JOptionPane.showMessageDialog(null, "Your incorrect so start over"); break;
+		}
+		}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
 	// 1. Make a main method and make sure your program can run
 
 		// 2. Make a String variable to hold the value of Pi.
@@ -14,7 +43,7 @@ public class GuessingPi {
 		// 3. Print out the first 3 digits of Pi to the console.
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
-
+ 
 		// 9. If you want to give the user more than one chance to guess,
 		//    put a for loop around steps 4-8.
 
